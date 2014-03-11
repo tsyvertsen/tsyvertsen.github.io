@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+ <!-- basic html for the home page. **NOT the 'About' page--> 
+    <head>
+        <title>Tessa Syvertsen</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Tessa Syvertsen's website">
+        <meta name="keywords" content="Tessa Syvertsen, environmental engineer, undergraduate">
+        <meta name="author" content="Tessa Syvertsen">
+        <link rel="stylesheet" type="text/css" href="css/base.css">
+    </head>
+
+    <body>
+    <!-- header will contain site name and all links in straight line-->
+        <header>
+            <h1><a href="index.html">Tessa Syvertsen</a>  </h1>
+            <nav> 
+                <a href="about.html">About Me </a> |
+                <a href="resume.html">Resume</a>  |
+                <a href="photos.html">Photos</a>  |
+                <a href="contact.html">Contact</a>  
+            </nav>
+        </header>
+
+    <!-- Article section for Home Page will only include a main picture, and clickable pictures links to external sites in the aside to the right-->
+        <article>
+            <!-- I would eventually like to code for this picture to change every 5 seconds--> 
+            <img src="img/wave.jpg" width="70%" alt="Wave" title="Wave"/>
+                      
+            <aside>
+                <div class="photo">
+                    <img src="img/SurfClubBlog.jpg" width="28%" alt="SurfClubBlog" title="SurfClubBlog" />
+                    <figcaption> <p/ class="caption"> Surf Club Blog </p></figcaption>
+                    <img src="img/UFSurfClub.jpg" width="28%" alt="UFSurfClub" title="UFSurfClub" />
+                    <figcaption> <p/ class="caption"> UF Surf Club Facebook </p></figcaption>
+                </div>
+            </aside>
+
+        </article>
+
+        <footer>
+            <p id="copyright">&copy;2014. TessaSyvertsen.com </p>
+            <a href="home.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="resume.html">Resume</a>
+            <a href="photos.html">Photos</a>
+            <a href="contact.html">Contact</a>
+        </footer>        
+
+    </body>
+
+</html>
+  
