@@ -71,10 +71,10 @@ article h2{
     line-height:24px;
     margin: 10px 0 0 8%;
 }
-article ul { 
+article li { 
     font-size: 23px;
+    color: grey;
     margin: 5px 0 0 10%;
-    color: grey
 }
 
 aside img {
