@@ -1,3 +1,4 @@
+/*applies to whole page*/
 * {
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
     box-sizing: border-box;
@@ -10,12 +11,14 @@ p  {
     margin: 16px 5% 16px 5%;
 }
 
+/*applies to whole header*/
 header {
     height:150px;
     color: #cccccc; 
     
 }
 
+/*applies to main page title (tessa Syvertsen) */
 header h1 {
      
     float: left; 
@@ -26,6 +29,7 @@ header h1 {
     margin: 30px 2% 0 2% 
 }
 
+/*applies to header page links AND separators (about | resume | photos | contact) */
 header nav{ 
     float: left;
     margin: 60px 3% 80px 3% ;
@@ -33,62 +37,71 @@ header nav{
     text-decoration: none;
 }
 
-
+/*applies to header links only (not separators) */
 header  a { 
     text-decoration: none; 
 }
 
+/*applies to header links being hovered over*/
 header a:hover {
     color:#5effbf;
 }
 
+/*applies to header links being clicked*/
 header a:active {
         color: #5effbf ;
 }
 
+/*applies to all images in acticle (main image and image links on home and contact page) */
 article img {
     min-width:300px;
     float:right;
     margin: 0 1% 10px 1% 
 }
 
+/*applies to descrition on About page */
 article p { 
     width: 32%;
     float:left;
     margin: 0 2% 0 3%
 }
 
-
+/*applies to main headers of resume*/
 article h1{
     color: #00cc99;
     font-size: 36px;
     line-height:44px;
     margin: 20px 0  0 5%
 }
+
+/*applies to sub headers on resume*/
 article h2{ 
     color: grey;
     font-size:24px;
     line-height:24px;
     margin: 10px 0 0 8%;
 }
+/*applies to bulleted specifics on resume*/
 article li { 
     font-size: 23px;
     color: grey;
     margin: 5px 0 0 10%;
 }
 
+ /* applies to picture links on main page and contact page*/
 aside img {
     min-width:200px;
     float:left;
     margin: 15px 0 15px 5%;
 }
 
+/*applies to horixontal pictures on photo page*/
 .horiz { 
-    
     float:left;
     margin: 10px 2% 10px 2%;
-    
 }
+
+/*applies to whole footer on every page*/
 footer  {
     color:#aaaaaa;
     background-color:#ccfff5;
@@ -98,12 +111,16 @@ footer  {
     padding: 10px 0 10px 8%;
     float: right;
     }
+
+/*applies to footer links on every page*/
 footer  a { 
     clear: both;
     color: #aaaaaa;
     margin: 0 3% 0 3%;
     text-decoration: none; 
     }
+
+/*applies to footer links being hovered over*/
 footer a:hover {
     color:#00cc99;
 }
