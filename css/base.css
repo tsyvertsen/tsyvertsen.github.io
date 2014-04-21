@@ -5,11 +5,6 @@
     color: #cccccc;
 }
 
-p  {
-    color: #00cc99;
-    font-size: 23px;
-    margin: 16px 5% 16px 5%;
-}
 
 /*applies to whole header*/
 header {
@@ -22,7 +17,7 @@ header {
 header h1 {
      
     float: left; 
-    width: 43%;
+    width: 42%;
     font-size: 70px;
     text-emphasis:none;
     font-weight: 100;
@@ -32,8 +27,9 @@ header h1 {
 /*applies to header page links AND separators (about | resume | photos | contact) */
 header nav{ 
     float: left;
-    margin: 60px 3% 80px 2% ;
-    font-size: 30px;
+    width: 53%;
+    margin: 60px 1% 80px 1% ;
+    font-size: 27px;
     text-decoration: none;
 }
 
@@ -54,17 +50,19 @@ header a:active {
 
 /*applies to all images in acticle (main image and image links on home and contact page) */
 article img {
+    width: 58%;
     min-width:300px;
     float:right;
     margin: 0 1% 10px 1% 
 }
-
-/*applies to descrition on About page */
-article p { 
-    width: 32%;
-    float:left;
-    margin: 0 2% 0 3%
+.main img{
+    width: 63%;
+    min-width:300px;
+    float:right;
+    margin: 0 1% 10px 1% 
 }
+/*applies to description on About page and paragraphs in travel page */
+
 
 /*applies to main headers of resume*/
 article h1{
@@ -74,7 +72,7 @@ article h1{
     margin: 20px 0  0 5%
 }
 
-/*applies to sub headers on resume*/
+/*applies to sub headers on resume and headers on travel page*/
 article h2{ 
     color: grey;
     font-size:24px;
@@ -90,12 +88,95 @@ article li {
 
  /* applies to picture links on main page and contact page*/
 aside img {
+    width: 25%;
     min-width:200px;
     float:left;
-    margin: 15px 0 15px 5%;
+    margin: 0 5% 20px 5%;
+}
+.travel {
+    width=95%
+    margin: 0 2.5% 0 2.5%;
+    font-size: 18px;
+    
+}
+.travel img{
+    width=10%;  
+    max-width: 50px;
+    max-height: 100 px;
+    margin: 10px 1% 10px 1%;   
+    
+}
+.p1{
+    font-size: 20px;
+    margin: 0 5% 20px 5%;
+    
+   }
+.p1 h1{
+    margin: 0 0 0 0;
+    
+}
+.p1 h2{
+    margin-left: 4%
+    
+}
+.p2{
+    margin: 0 5% 0 5%;
+    
+   }
+.p2 h2{
+    margin: 10px 0 0 0;
+    }
+.p2 img{
+min-width:100%
+}
+.p2 p{ 
+    margin: 0 2% 0 0
 }
 
-/*applies to horixontal pictures on photo page*/
+.vid {
+margin: 20px 30% 0 30%
+}
+/*.pr img{
+    float: right;
+    width:25%;
+
+}
+.pr {
+    width:70%;
+    float: right;
+    
+    margin: 10px 5% 20px 5%
+}*/
+ /*applies to horizontal image on travel page*/
+.hor img {
+    min-width: 50%;
+}
+.about { 
+    color: #00cc99;
+    font-size: 23px;
+    width: 35%;
+    float:left;
+    margin: 0 2% 0 3%
+}
+.about h2{
+    font-size: 30px;
+margin: 20px 0 10px 0
+}
+.about p{
+    color: #00cc99;
+    margin: 0 0 50px 2%
+        
+}
+.pics{
+width: 100%;
+    
+}
+.pics img{
+    max-height: 7-0px;
+    width: 32%;
+    margin: 10px .5% 10px .5%
+}
+/*applies to horizontal pictures on photo page*/
 .horiz { 
     float:left;
     margin: 10px 2% 10px 2%;
@@ -116,7 +197,7 @@ footer  {
 footer  a { 
     clear: both;
     color: #aaaaaa;
-    margin: 0 3% 0 3%;
+    margin: 0 1.5% 0 1.5%;
     text-decoration: none; 
     }
 
