@@ -136,17 +136,7 @@ min-width:100%
 .vid {
 margin: 20px 30% 0 30%
 }
-/*.pr img{
-    float: right;
-    width:25%;
 
-}
-.pr {
-    width:70%;
-    float: right;
-    
-    margin: 10px 5% 20px 5%
-}*/
  /*applies to horizontal image on travel page*/
 .hor img {
     min-width: 50%;
@@ -167,18 +157,17 @@ margin: 20px 0 10px 0
     margin: 0 0 50px 2%
         
 }
-.pics{
-width: 100%;
-    
-}
+/* applies to vertical pics on photo page*/
 .pics img{
     max-height: 7-0px;
     width: 32%;
     margin: 10px .5% 10px .5%
 }
 /*applies to horizontal pictures on photo page*/
-.horiz { 
+.horiz img{ 
     float:left;
+    width: 45%;
+    max-width: 45%; 
     margin: 10px 2% 10px 2%;
 }
 
