@@ -48,21 +48,28 @@ header a:active {
         color: #5effbf ;
 }
 
-/*applies to all images in acticle (main image and image links on home and contact page) */
+
+.main img{
+    width: 67%;
+    min-width:300px;
+    float:right;
+    margin: 0 1% 10px 0 
+}
+ /* applies to picture links on main page and contact page*/
+aside img {
+    width: 24%;
+    min-width:200px;
+    float:left;
+    margin: 0 1% 20px 3%
+}
+
+/*applies to all images in about me page*/
 article img {
     width: 58%;
     min-width:300px;
     float:right;
     margin: 0 1% 10px 1% 
 }
-.main img{
-    width: 63%;
-    min-width:300px;
-    float:right;
-    margin: 0 1% 10px 1% 
-}
-/*applies to description on About page and paragraphs in travel page */
-
 
 /*applies to main headers of resume*/
 article h1{
@@ -86,23 +93,13 @@ article li {
     margin: 5px 0 0 10%;
 }
 
- /* applies to picture links on main page and contact page*/
-aside img {
-    width: 25%;
-    min-width:200px;
-    float:left;
-    margin: 0 5% 20px 5%;
-}
+
 .travel {
-    width=95%
-    margin: 0 2.5% 0 2.5%;
     font-size: 18px;
     
 }
 .travel img{
-    width=10%;  
     max-width: 50px;
-    max-height: 100 px;
     margin: 10px 1% 10px 1%;   
     
 }
@@ -127,7 +124,7 @@ aside img {
     margin: 10px 0 0 0;
     }
 .p2 img{
-min-width:100%
+    min-width:100%
 }
 .p2 p{ 
     margin: 0 2% 0 0
@@ -157,18 +154,23 @@ margin: 20px 0 10px 0
     margin: 0 0 50px 2%
         
 }
+.pics{
+    width:100%
+}
 /* applies to vertical pics on photo page*/
 .pics img{
-    max-height: 7-0px;
-    width: 32%;
+    width: 31%;
     margin: 10px .5% 10px .5%
 }
 /*applies to horizontal pictures on photo page*/
+.horiz{
+    width: 100%
+}
 .horiz img{ 
     float:left;
-    width: 45%;
+    width: 46%;
     max-width: 45%; 
-    margin: 10px 2% 10px 2%;
+    margin: 10px 0 10px 2%;
 }
 
 /*applies to whole footer on every page*/
